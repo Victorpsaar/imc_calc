@@ -1,0 +1,35 @@
+.form {
+    display: inline-block;
+    text-align: center;
+    max-width: 640px;
+    padding: 24px 0;
+}
+
+.form__control {
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #555;
+    margin-right: 24px;
+}
+.flex {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    text-align: left;
+}
+
+.list__item {
+    padding-bottom: 8px;
+}
+
+.list__image {
+    border-radius: 10px;
+}
+
+.span {
+    padding: 0 6px;
+}
