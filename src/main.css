@@ -39,3 +39,9 @@ body {
     background-color: #fff;
     border: 2px solid #555;
 }
+
+.footer {
+    background-color: #555;
+    color: #fff;
+    padding: 8px;
+}

@@ -9,6 +9,9 @@ function App() {
     <div className="container">
         <Formulario /> 
     </div>
+    <footer className="footer">
+      <p>&copy; Todos os direitos reservados à Porto Productions</p>
+    </footer>
     </>
   )
 }

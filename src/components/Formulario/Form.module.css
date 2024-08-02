@@ -20,6 +20,7 @@
 
 .list {
     text-align: left;
+    width: 250px;
 }
 
 .list__item {
@@ -28,6 +29,7 @@
 
 .list__image {
     border-radius: 10px;
+    width: 300px;
 }
 
 .span {
