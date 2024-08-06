@@ -11,32 +11,29 @@ function Formulario() {
     useEffect(() => {
         function findEstado() {
             if (imc >= 40) {
-                return 'Obesidade grau 3'
+                return 'Obesidade grau 3';
             } else if (imc >= 34.9) {
-                return 'Obesidade grau 2'
+                return 'Obesidade grau 2';
             } else if (imc >= 30 ) {
-                return 'Obesidade grau 1'
+                return 'Obesidade grau 1';
             } else if (imc >= 25) {
-                return 'Acima do peso'
+                return 'Acima do peso';
             } else if (imc >= 18.5) {
                 return 'Peso normal'
             } else if (imc >= 17) {
-                return 'Abaixo do peso'
+                return 'Abaixo do peso';
             } else if (imc > 0) {
-                return 'Muito abaixo do peso!!'
+                return 'Muito abaixo do peso!!';
             } else {
-                return ''
+                return '';
             }
         }
-        setEstado(findEstado())
-    },[imc])
+        setEstado(findEstado());
+    },[imc]);
 
-/*Queria ter colocado a function findEstado na função abaixo,
-mas tinha que apertar duas vezes no btn para executar com o valor do imc atualizado. */
     function calcImc() {
-        setImc(peso / 2 **(altura / 100));
+        setImc(peso / (altura / 100) ** 2);
     }
-
 
     return(
         <>
